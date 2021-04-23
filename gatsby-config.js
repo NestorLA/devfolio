@@ -71,7 +71,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Firebase, Bootstrap4, Material-UI, Git.',
+          'Firebase, Bootstrap4, Material-UI, Git, Netlify, Vercel.',
       },
     ],
   },
