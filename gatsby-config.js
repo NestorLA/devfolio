@@ -39,7 +39,7 @@ module.exports = {
       {
         name: 'CMYK Panel',
         description:
-          'Una herramienta para gestión automatizada de los proyectos CMYK de FrontEndCafé. Hecho de forma grupal en el transcurso de 2 meses. Utiliza KeystoneJS como headlessCMS, conexión con Knex y ApolloGraphQL. Como framework de React usa Next.js.',
+          'Una herramienta para gestión automatizada de los proyectos CMYK de FrontEndCafé. Hecho de forma grupal en el transcurso de 2 meses. Utiliza KeystoneJS como headlessCMS, conexión con Knex y ApolloGraphQL. Como framework de React usa Next.js. TailwindCSS para los estilos.',
         link: 'https://github.com/frontendcafe/cmyk-forest',
       },
     ],
@@ -66,12 +66,12 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), React, Next.js.',
+          'JavaScript (ES6+), React, React Hooks, Next.js.',
       },
       {
         name: 'Other',
         description:
-          'Firebase, Bootstrap4, Material-UI, Git',
+          'Firebase, Bootstrap4, Material-UI, Git.',
       },
     ],
   },
