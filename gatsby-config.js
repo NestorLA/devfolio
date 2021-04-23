@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://nestoracerbo.vercel.app/`,
     // Your Name
     name: 'Néstor Acerbo',
     // Main Site Title
@@ -133,7 +133,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/yo.png`,
+        icon: `src/images/yo.jpg`,
       },
     },
   ],
