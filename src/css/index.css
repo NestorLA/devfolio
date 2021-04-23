@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+  font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
 @layer base {
+
   .blog-content {
     @apply text-gray-600;
     @apply max-w-screen-md;

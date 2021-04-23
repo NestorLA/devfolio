@@ -3,73 +3,75 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Néstor Acerbo',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Nestor Acerbo | Front End Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `React Front End Developer`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@nlacerbo`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/NestorLA`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/nestorleonelacerbo/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hola👋. Siempre fui muy apasionado por la tecnología. En este momento decidí embarcarme en mi verdadera pasión que es la programación. Desde un primer momento me fascino el Front End por lo visual y estético que puede llegar a ser. Estoy con mucha confianza que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Wizard Multistepper',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Trabajo freelance realizado en Next.js el cual es un formulario con multiples pasos. Se utiliza Context para el manejo de estados global, Reacstrap y Material-UI como herramientas de UI. Formik + Yup para el formulario y su validación. Para la traducción se utilizó next-translate.',
+        link: 'https://nextjs-argon-dashboard-master-nestorla.vercel.app/auth/wizard',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Pokecommerce',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Proyecto final para el curso de React de Coderhouse. E-commerce de pokemons con carrito. Se utiliza Context para el manejo de estados, estilos con React-Bootstrap y Firebase para el back mediante conexión con API. Para el routeo se utilizó react-router-dom.',
+        link: 'https://github.com/NestorLA/pokecommerce',
       },
       {
-        name: 'Another Cool Project',
+        name: 'NotasApp',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Aplicación web para guardar notas de forma simple y rápida. Confeccionado con Firebase, Bootswatch como herramienta CSS.',
+        link: 'https://github.com/NestorLA/notasapp',
+      },
+      {
+        name: 'CMYK Panel',
+        description:
+          'Una herramienta para gestión automatizada de los proyectos CMYK de FrontEndCafé. Hecho de forma grupal en el transcurso de 2 meses. Utiliza KeystoneJS como headlessCMS, conexión con Knex y ApolloGraphQL. Como framework de React usa Next.js.',
+        link: 'https://github.com/frontendcafe/cmyk-forest',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    // experience: [
+    //   {
+    //     name: 'Acme Corp',
+    //     description: 'Full-Stack Developer, February 2020 - Present',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    //   {
+    //     name: 'Globex Corp',
+    //     description: 'Full-Stack Developer, December 2017 - February 2020',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    //   {
+    //     name: 'Hooli',
+    //     description: 'Full-Stack Developer, May 2015 - December 2017',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    // ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+          'JavaScript (ES6+), React, Next.js.',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Firebase, Bootstrap4, Material-UI, Git',
       },
     ],
   },
@@ -125,13 +127,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
+        name: `Nestor Acerbo portfolio`,
         short_name: `devfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/yo.png`,
       },
     },
   ],
