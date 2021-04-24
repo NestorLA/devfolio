@@ -80,7 +80,7 @@ module.exports = {
       },
       {
         name: 'Languages',
-        description: 'English: C2 level ',
+        description: 'English: C2 level.',
       },
     ],
   },
