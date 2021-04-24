@@ -30,8 +30,9 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             className={classes.image}
             src={profileImg}
             alt={metadata.name}
-            height="245px"
+            height="226.5px"
             width="150px"
+            id="profileImg"
           />
         </Link>
       </div>
