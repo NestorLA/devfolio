@@ -4,11 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html {
-  font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 @layer base {
-
   .blog-content {
     @apply text-gray-600;
     @apply max-w-screen-md;
@@ -258,6 +257,6 @@ pre[class*='language-'] {
 
 #profileImg {
   filter: grayscale(0.8);
-  height: 237px;
-  width: 150px
+  height: 245px !important;
+  width: 150px !important;
 }
