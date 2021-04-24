@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/yo.jpg';
+import profileImg from '../../images/yo2.jpg';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -10,11 +10,11 @@ const classes = {
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  description: 'text-gray-600',
+  description: 'text-gray-700',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+    'inline-block py-2 font-semibold text-xs text-gray-800 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -26,7 +26,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
         <Link to="/">
-          <img className={classes.image} src={profileImg} alt={metadata.name} />
+          <img className={classes.image} src={profileImg} alt={metadata.name} id="profileImg" />
         </Link>
       </div>
       <div className={classes.contentWrapper}>

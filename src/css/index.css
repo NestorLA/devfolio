@@ -255,3 +255,9 @@ pre[class*='language-'] {
   padding: 2px 5px !important;
   text-shadow: none !important;
 }
+
+#profileImg {
+  filter: grayscale(0.8);
+  height: 235px;
+  width: 150px
+}
