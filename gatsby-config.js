@@ -44,7 +44,7 @@ module.exports = {
         link: 'https://github.com/frontendcafe/cmyk-forest',
       },
       {
-        name: 'Mecanica Yogui',
+        name: 'Mecánica Yogui',
         description:
           'Landing page responsive para negocio local, hecho con HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp API.',
         link: 'https://github.com/NestorLA/mecanica-yogui-landing-page',
@@ -79,7 +79,7 @@ module.exports = {
         description: 'Firebase, Bootstrap4, Material-UI, Git, Netlify, Vercel.',
       },
       {
-        name: 'Language',
+        name: 'Languages',
         description: 'English: C2 level ',
       },
     ],
