@@ -22,7 +22,8 @@ module.exports = {
         name: 'Wizard Multistepper',
         description:
           'Trabajo freelance realizado en Next.js el cual es un formulario con multiples pasos. Se utiliza Context para el manejo de estados global, Reacstrap y Material-UI como herramientas de UI. Formik + Yup para el formulario y su validación. Para la traducción se utilizó next-translate.',
-        link: 'https://nextjs-argon-dashboard-master-nestorla.vercel.app/auth/wizard',
+        link:
+          'https://nextjs-argon-dashboard-master-nestorla.vercel.app/auth/wizard',
       },
       {
         name: 'Pokecommerce',
@@ -41,6 +42,12 @@ module.exports = {
         description:
           'Una herramienta para gestión automatizada de los proyectos CMYK de FrontEndCafé. Hecho de forma grupal en el transcurso de 2 meses. Utiliza KeystoneJS como headlessCMS, conexión con Knex y ApolloGraphQL. Como framework de React usa Next.js. TailwindCSS para los estilos.',
         link: 'https://github.com/frontendcafe/cmyk-forest',
+      },
+      {
+        name: 'Mecanica Yogui',
+        description:
+          'Landing page responsive para negocio local, hecho con HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp API.',
+        link: 'https://github.com/NestorLA/mecanica-yogui-landing-page',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -64,14 +71,16 @@ module.exports = {
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), React, React Hooks, Next.js.',
+        name: 'Programming Languages & Frameworks',
+        description: 'JavaScript (ES6+), React, React Hooks, Next.js.',
       },
       {
         name: 'Other',
-        description:
-          'Firebase, Bootstrap4, Material-UI, Git, Netlify, Vercel.',
+        description: 'Firebase, Bootstrap4, Material-UI, Git, Netlify, Vercel.',
+      },
+      {
+        name: 'Language',
+        description: 'English: C2 level ',
       },
     ],
   },
