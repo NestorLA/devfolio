@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nestorleonelacerbo/`,
     // Content of the About Me section
-    about: `Hola👋. Siempre fui muy apasionado por la tecnología. En este momento decidí embarcarme en mi verdadera pasión que es la programación. Desde un primer momento me fascino el Front End por lo visual y estético que puede llegar a ser. Estoy con mucha confianza que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
+    about: `Hola👋. Siempre fui muy apasionado por la tecnología. En este momento decidí embarcarme en mi verdadera pasión que es la programación. Desde un primer momento me fascino el Front End por lo visual y estético que puede llegar a ser. Tengo mucha confianza en que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
