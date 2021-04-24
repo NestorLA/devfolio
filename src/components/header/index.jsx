@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/yo2.jpg';
+import profileImg from '../../images/yo2.webp';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
