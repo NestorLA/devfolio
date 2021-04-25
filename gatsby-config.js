@@ -46,7 +46,7 @@ module.exports = {
       {
         name: 'Mecánica Yogui',
         description:
-          'Landing page responsive para negocio local, hecho con HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp API.',
+          'Landing page responsive para negocio local. Construido HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp API.',
         link: 'https://github.com/NestorLA/mecanica-yogui-landing-page',
       },
     ],
@@ -80,7 +80,7 @@ module.exports = {
       },
       {
         name: 'Languages',
-        description: 'English: C2 level.',
+        description: 'English: B2 level.',
       },
     ],
   },
