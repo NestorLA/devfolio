@@ -13,9 +13,10 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/NestorLA`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/nestorleonelacerbo/`,
+    linkedin: `https://www.linkedin.com/in/nestorleonelacerbo`,
+    resume: `https://www.dropbox.com/s/mqqc692gsx8fdif/CV%20Nestor%20Acerbo%202021.pdf?dl=0`,
     // Content of the About Me section
-    about: `Hola👋. Soy desarrollador de Front End con experiencia en crear sitios y aplicaciones web en JavaScript y React. Desde un primer momento me fascino la parte del Front End por lo visual y estético que puede llegar a ser. Tengo mucha confianza en que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
+    about: `Hola 👋. Soy Néstor Acerbo, desarrollador de Front End con experiencia en crear sitios y aplicaciones web en JavaScript y React. Mi principal objetivo es crear atractivas, accesibles y eficientes interfaces para humanos. Tengo mucha confianza en que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
