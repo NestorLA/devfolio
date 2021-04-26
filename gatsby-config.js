@@ -51,6 +51,7 @@ module.exports = {
         link: 'https://github.com/NestorLA/mecanica-yogui-landing-page',
       },
     ],
+    
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     // experience: [
     //   {
