@@ -3,6 +3,9 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+
+import profileImg from '../../images/yo2.webp';
+
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -40,6 +43,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: profileImg,
         },
         {
           property: `og:type`,
