@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-
 import profileImg from '../../images/yo2.webp';
 
 const SEO = ({ description, lang, meta, title }) => {
@@ -67,6 +66,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: profileImg,
         },
       ].concat(meta)}
     />
