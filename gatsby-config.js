@@ -98,13 +98,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/locales`,
-        name: `locale`
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
