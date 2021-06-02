@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Néstor Acerbo',
     // Main Site Title
-    title: `Nestor Acerbo | React Front End Developer`,
+    title: `Néstor Acerbo | React Front End Developer`,
     // Description that goes under your name in main bio
     description: `React Front End Developer`,
     // Optional: Twitter account handle
@@ -45,31 +45,26 @@ module.exports = {
         link: 'https://github.com/frontendcafe/cmyk-forest',
       },
       {
-        name: 'Mecánica Yogui',
+        name: 'Mecánica Yogui Landing Page',
         description:
-          'Landing page responsive para negocio local. Construido HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp API.',
+          'Landing page responsive para negocio local. Construido con HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp.',
         link: 'https://github.com/NestorLA/mecanica-yogui-landing-page',
       },
     ],
 
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    // experience: [
-    //   {
-    //     name: 'Acme Corp',
-    //     description: 'Full-Stack Developer, February 2020 - Present',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    //   {
-    //     name: 'Globex Corp',
-    //     description: 'Full-Stack Developer, December 2017 - February 2020',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    //   {
-    //     name: 'Hooli',
-    //     description: 'Full-Stack Developer, May 2015 - December 2017',
-    //     link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   },
-    // ],
+    experience: [
+      {
+        name: 'Freelance',
+        description: 'Front End Developer, Abril 2021 - Presente',
+        link: 'https://github.com/NestorLA',
+      },
+            {
+        name: 'FrontEndCafé',
+        description: 'Front End Developer, Diciembre 2020 - Enero 2021',
+        link: 'https://github.com/frontendcafe/cmyk-forest',
+      },
+    ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
@@ -101,6 +96,13 @@ module.exports = {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locales`,
+        name: `locale`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -147,5 +149,35 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
+        languages: [`es`, `en`],
+        defaultLanguage: `es`,
+        // if you are using Helmet, you must include siteUrl, and make sure you add http:https
+        siteUrl: `https://nestoracerbo.vercel.app/`,
+        // you can pass any i18next options
+        // pass following options to allow message content as a key
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false // not needed for react as it escapes by default
+          },
+          keySeparator: false,
+          nsSeparator: false
+        },
+        pages: [
+          {
+            matchPath: '/:lang?/blog/:uid',
+            getLanguageFromPath: true,
+            excludeLanguages: ['en']
+          },
+          {
+            matchPath: '/preview',
+            languages: ['es']
+          }
+        ]
+      }
+    }
   ],
 };
