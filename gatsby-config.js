@@ -27,6 +27,14 @@ module.exports = {
           'https://nextjs-argon-dashboard-master-nestorla.vercel.app/auth/wizard',
       },
       {
+        name: 
+        'Quiz App',
+        description: 
+        'Aplicación de juego de preguntas y respuestas (quiz) en el cual debemos contestar las preguntas correctas. Realizado con ViteJS, React, Bootstrap 5 y Open Trivia API',
+        link:
+          'https://github.com/NestorLA/quizApp',
+      },
+      {
         name: 'Pokecommerce',
         description:
           'Proyecto final para el curso de React de Coderhouse. E-commerce de pokemons con carrito. Se utiliza Context para el manejo de estados, estilos con React-Bootstrap y Firebase para el back mediante conexión con API. Para el routeo se utilizó react-router-dom.',
