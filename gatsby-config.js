@@ -14,7 +14,7 @@ module.exports = {
     github: `https://github.com/NestorLA`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nestorleonelacerbo`,
-    resume: `https://www.dropbox.com/s/mqqc692gsx8fdif/CV%20Nestor%20Acerbo%202021.pdf?dl=0`,
+    resume: `https://drive.google.com/file/d/1C-dtgGo7pV3fcQInIzjJgk3qL0eAhX9Z/view?usp=sharing`,
     // Content of the About Me section
     about: `Hola 👋. Soy Néstor Acerbo, desarrollador de Front End con experiencia en crear sitios y aplicaciones web en JavaScript y React. Mi principal objetivo es crear atractivas, accesibles y eficientes interfaces para las personas. Tengo mucha confianza en que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -63,13 +63,18 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Sabbgo SRL',
+        description: 'IT Specialist, Agosto 2021 - Presente',
+        link: 'https://www.sabbgo.com.ar',
+      },
+      {
         name: 'Freelance',
         description: 'Front End Developer, Abril 2021 - Presente',
         link: 'https://github.com/NestorLA',
       },
             {
         name: 'FrontEndCafé',
-        description: 'Front End Developer, Diciembre 2020 - Enero 2021',
+        description: 'Front End Developer Training, Diciembre 2020 - Enero 2021',
         link: 'https://github.com/frontendcafe/cmyk-forest',
       },
     ],
